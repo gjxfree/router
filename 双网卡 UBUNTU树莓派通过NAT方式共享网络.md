@@ -21,7 +21,7 @@
 
 ## 树莓派设置IP
 
->  		再树莓派中使用命令行修改`sudo vi /etc/dhcpcd.conf`
+>  		在树莓派中使用命令行修改`sudo vi /etc/dhcpcd.conf`
 >
 > ​		添加或者修改eth1的IP信息：
 >
