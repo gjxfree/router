@@ -51,4 +51,5 @@
 ## 端口转发
 
 > iptables -t nat -A PREROUTING -d 10.26.0.5 -p tcp --dport 5901 -j DNAT --to-destination 192.168.0.2:3389
+>
 > iptables -t nat -A PREROUTING -d 10.26.0.5 -p udp --dport 5901 -j DNAT --to-destination 192.168.0.2:3389
